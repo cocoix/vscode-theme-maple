@@ -147,7 +147,6 @@ export function generateTokenColor(tokens: TokenColor, plainColor: string) {
         'constant.language.nullptr',
       ],
       foreground: maple('keyword.alt'),
-      fontStyle: font('italic'),
     },
     {
       scope: [
@@ -250,7 +249,6 @@ export function generateTokenColor(tokens: TokenColor, plainColor: string) {
         'meta.type keyword.operator.expression.keyof',
       ],
       foreground: maple('keyword.normal'),
-      fontStyle: font('italic'),
     },
     {
       scope: 'namespace',
@@ -374,7 +372,6 @@ export function generateTokenColor(tokens: TokenColor, plainColor: string) {
     },
     {
       scope: 'markup.italic',
-      fontStyle: font('italic'),
       foreground: maple('markdown.italic'),
     },
     {
@@ -562,17 +559,6 @@ export function generateTokenColor(tokens: TokenColor, plainColor: string) {
       fontStyle: font(),
     },
     {
-      scope: [
-        'keyword.control',
-        'keyword.function',
-        'keyword.operator.borrow.and.rust',
-        'storage.type',
-        'storage.modifier',
-        'variable.language.this',
-      ],
-      fontStyle: font('italic'),
-    },
-    {
       scope: 'source.go storage.type',
       fontStyle: font(),
     },
@@ -647,7 +633,7 @@ export function generateTokenColor(tokens: TokenColor, plainColor: string) {
       'property.defaultLibrary': maple('property.defaultLib'),
       'interface': {
         foreground: maple('interface.normal'),
-        italic: true,
+        italic: false,
       },
       'interface.defaultLibrary': {
         foreground: maple('interface.defaultLib'),
@@ -689,12 +675,12 @@ export function generateTokenColor(tokens: TokenColor, plainColor: string) {
       },
       'selfParameter': {
         foreground: maple('keyword.alt'),
-        italic: true,
+        italic: false,
         underline: false,
       },
       'selfKeyword': {
         foreground: maple('keyword.alt'),
-        italic: true,
+        italic: false,
         underline: false,
       },
       'enum': maple('enum'),
@@ -711,7 +697,7 @@ export function generateTokenColor(tokens: TokenColor, plainColor: string) {
         bold: true,
       },
       '*.static': {
-        italic: true,
+        italic: false,
       },
       '*.async': {
         bold: true,

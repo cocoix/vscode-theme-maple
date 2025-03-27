@@ -35,7 +35,8 @@
     "editorGroupHeader.tabsBorder": "#232a39",
     "editorLineNumber.foreground": "#999999b3",
     "editorLineNumber.activeForeground": "#fafafa",
-    "editorCursor.foreground": "#73839a",
+    "editorCursor.foreground": "#f5e0dc",
+    "editorCursor.background": "#1e1e2e",
     "editorIndentGuide.activeBackground1": "#cbd5e1cc",
     "editorIndentGuide.background1": "#cbd5e140",
     "editorInlayHint.foreground": "#f5e7d6",
@@ -205,7 +206,7 @@
     "property.defaultLibrary": "#d5f288",
     "interface": {
       "foreground": "#f0c0a8",
-      "italic": true
+      "italic": false
     },
     "interface.defaultLibrary": {
       "foreground": "#f0c0a8",
@@ -246,12 +247,12 @@
     },
     "selfParameter": {
       "foreground": "#e3cbeb",
-      "italic": true,
+      "italic": false,
       "underline": false
     },
     "selfKeyword": {
       "foreground": "#e3cbeb",
-      "italic": true,
+      "italic": false,
       "underline": false
     },
     "enum": "#a1e8e5",
@@ -267,7 +268,7 @@
       "bold": true
     },
     "*.static": {
-      "italic": true
+      "italic": false
     },
     "*.async": {
       "bold": true
@@ -409,8 +410,7 @@
         "constant.language.nullptr"
       ],
       "settings": {
-        "foreground": "#e3cbeb",
-        "fontStyle": "italic"
+        "foreground": "#e3cbeb"
       }
     },
     {
@@ -536,8 +536,7 @@
         "meta.type keyword.operator.expression.keyof"
       ],
       "settings": {
-        "foreground": "#d2ccff",
-        "fontStyle": "italic"
+        "foreground": "#d2ccff"
       }
     },
     {
@@ -710,8 +709,7 @@
     {
       "scope": "markup.italic",
       "settings": {
-        "foreground": "#f0c0a8",
-        "fontStyle": "italic"
+        "foreground": "#f0c0a8"
       }
     },
     {
@@ -950,19 +948,6 @@
       "settings": {
         "foreground": "#e3cbeb",
         "fontStyle": ""
-      }
-    },
-    {
-      "scope": [
-        "keyword.control",
-        "keyword.function",
-        "keyword.operator.borrow.and.rust",
-        "storage.type",
-        "storage.modifier",
-        "variable.language.this"
-      ],
-      "settings": {
-        "fontStyle": "italic"
       }
     },
     {

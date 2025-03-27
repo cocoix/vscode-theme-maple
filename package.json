@@ -1,9 +1,9 @@
 {
-  "publisher": "subframe7536",
-  "name": "theme-maple",
-  "displayName": "Maple Theme",
+  "publisher": "cocoix",
+  "name": "theme-maple-x",
+  "displayName": "Maple Theme X",
   "type": "module",
-  "version": "0.6.3",
+  "version": "0.0.1",
   "description": "Maple theme for VSCode",
   "license": "MIT",
   "repository": {
@@ -29,14 +29,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Maple Dark",
+        "label": "Maple Dark X",
         "uiTheme": "vs-dark",
         "path": "./themes/maple-dark-color-theme.json"
-      },
-      {
-        "label": "Maple Light",
-        "uiTheme": "vs",
-        "path": "./themes/maple-light-color-theme.json"
       }
     ]
   },

@@ -49,7 +49,9 @@ export const generateEditorColor: GenerateUIWithBaseFn = (base, ui, isDark) => (
     activeForeground: getTextColor(ui.background),
   },
   editorCursor: {
-    foreground: ui.cursor,
+    // foreground: ui.cursor,
+    foreground: '#f5e0dc',
+    background: '#1e1e2e'
   },
   editorIndentGuide: {
     activeBackground1: parseColor(ui.foreground, 0.8),
